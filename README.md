@@ -136,7 +136,24 @@ Decision Tree and Random Forest achieved identical results on the current test s
 
 Important limitation: The dataset contains 22 churn cases out of 1,000 records, and the test set contains only four churn cases. The reported metrics are therefore insufficient to establish reliable generalization performance.
 
-## 8. Key Findings
+## 8. Visualizations
+
+### Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.PNG)
+
+### Outlier analysis-Annual Income
+![Annual Income](images/annual_income.PNG)
+
+### Customer Churn
+![Customer Churn](images/customer_churn.PNG)
+
+### Annual Income Vs Spending Scores
+![Annual Income Vs Spending Scores](images/income_spending.PNG)
+
+### Spending Scores analysis
+![Spending Scores analysis](images/spending_scores.PNG)
+
+## 9. Key Findings
 
 - "SpendingScore" showed a strong positive correlation with "TotalSpent" (approximately 0.767).
 - "TotalPurchases" showed a moderate positive correlation with "TotalSpent" (approximately 0.492).
@@ -145,7 +162,7 @@ Important limitation: The dataset contains 22 churn cases out of 1,000 records, 
 
 These findings describe patterns in the synthetic dataset. They do not establish causation or guarantee the same patterns in real customer data.
 
-## 9. Project Structure
+## 10. Project Structure
 ```text
 ecommerce-customer-analytics/
 ├── ecommerce_customer_analytics.ipynb
@@ -159,7 +176,7 @@ ecommerce-customer-analytics/
     ├── classification_model_comparison.csv
     └── association_rules.csv
 ```
-## 10. How to Run the Project
+## 11. How to Run the Project
 
 **1. Prerequisites**
 
@@ -181,7 +198,7 @@ jupyter notebook ecommerce_customer_analytics.ipynb
 
 Dataset path: Ensure the notebook loads the CSV from the project directory. A relative path such as "pd.read_csv("ecommerce_multitask_dataset.csv")" makes the project easier to run on other computers.
 
-## 11. Limitations
+## 12. Limitations
 
 - The dataset is synthetic and may not represent real customer behavior.
 - The classification dataset is imbalanced, with only 22 churn cases.
@@ -190,7 +207,7 @@ Dataset path: Ensure the notebook loads the CSV from the project directory. A re
 - Three clusters were selected as an initial choice; the optimal number of clusters has not been established.
 - Association rules indicate co-occurrence patterns, not causal relationships.
 
-## 12. Future Improvements
+## 13. Future Improvements
 
 - Investigate the synthetic data-generation process and potential target leakage.
 - Validate classification models with repeated stratified cross-validation and suitable metrics.
@@ -199,7 +216,7 @@ Dataset path: Ensure the notebook loads the CSV from the project directory. A re
 - Develop an interactive customer analytics dashboard.
 - Explore personalized product recommendations.
 
-## 13. Conclusion
+## 14. Conclusion
 
 This project demonstrates an introductory end-to-end machine learning workflow for e-commerce customer analytics using regression, classification, clustering, and association rule mining.
 
