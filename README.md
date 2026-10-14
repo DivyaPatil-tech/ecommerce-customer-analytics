@@ -178,23 +178,19 @@ ecommerce-customer-analytics/
 ```
 ## 11. How to Run the Project
 
-**1. Prerequisites**
+**Prerequisites**
 
 Install Python and Jupyter Notebook.
 
-**2. Installation**
+**Installation**
 
 1. Clone or download this repository.
 2. Open a terminal in the project directory.
 3. Install the dependencies:
-
-**3. pip install -r requirements.txt**
-
-**4. Open the notebook:**
-
+3. pip install -r requirements.txt
+4. Open the notebook:
 jupyter notebook ecommerce_customer_analytics.ipynb
-
-**5. Run the notebook cells in order**
+5. Run the notebook cells in order
 
 Dataset path: Ensure the notebook loads the CSV from the project directory. A relative path such as "pd.read_csv("ecommerce_multitask_dataset.csv")" makes the project easier to run on other computers.
 
