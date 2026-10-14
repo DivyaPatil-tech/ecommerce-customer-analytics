@@ -1,0 +1,4 @@
+Model,Accuracy,Churn Precision,Churn Recall,Churn F1 Score
+Logistic Regression,0.99,1.0,0.5,0.6666666666666666
+Decision Tree,1.0,1.0,1.0,1.0
+Random Forest,1.0,1.0,1.0,1.0

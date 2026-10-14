@@ -1,0 +1,48 @@
+Python cache files
+
+pycache/
+*.py[cod]
+
+Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+Virtual environments
+
+venv/
+.venv/
+env/
+
+Conda environment folders
+
+.conda/
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+IDE settings
+
+.vscode/
+
+Logs
+
+*.log
+
+Temporary files
+
+*.tmp
+*.bak
+
+Local datasets - review before publishing
+
+data/*
+!data/README.md
