@@ -126,10 +126,11 @@ However, the high R² score requires further investigation, including examinatio
 
 **7.2 Classification Results**
 
-Model| Accuracy| Churn Precision| Churn Recall| Churn F1-score
-Logistic Regression| 99%| 1.00| 0.50| 0.67
-Decision Tree Classifier| 100%| 1.00| 1.00| 1.00
-Random Forest Classifier| 100%| 1.00| 1.00| 1.00
+|Model| Accuracy| Churn Precision| Churn Recall| Churn F1-score|
+|---|---|---|---|---:|
+|Logistic Regression| 99%| 1.00| 0.50| 0.67|
+|Decision Tree Classifier| 100%| 1.00| 1.00| 1.00|
+|Random Forest Classifier| 100%| 1.00| 1.00| 1.00|
 
 Decision Tree and Random Forest achieved identical results on the current test set. Random Forest is a candidate for further validation, but these results do not establish that it is superior.
 
