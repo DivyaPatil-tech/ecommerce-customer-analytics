@@ -1,18 +1,18 @@
-E-Commerce Customer Analytics Using Machine Learning
+# **E-Commerce Customer Analytics Using Machine Learning**
 
-Project Overview
+**Project Overview**
 
 This project applies machine learning techniques to an e-commerce customer dataset to analyze customer spending, predict customer churn, identify customer segments, and discover product associations.
 
 The project demonstrates four analytical approaches: regression, classification, clustering, and association rule mining.
 
-Business Problem
+**Business Problem**
 
 E-commerce businesses need to understand customer purchasing behavior, identify customers who may churn, segment customers for targeted marketing, and discover products that are frequently purchased together.
 
 This project explores how machine learning can support these business objectives.
 
-Objectives
+**Objectives**
 
 - Predict customer total spending using regression models.
 - Classify customers based on churn status.
@@ -21,7 +21,7 @@ Objectives
 - Discover product associations using the Apriori algorithm.
 - Compare model performance and summarize business insights.
 
-Dataset
+**Dataset**
 
 The dataset contains customer-related information, including:
 
@@ -35,7 +35,7 @@ The dataset contains customer-related information, including:
 
 The "ChurnStatus" interpretation is assumed to be "1 = churned" and "0 = active". This assumption must be verified against the original dataset documentation.
 
-Technologies Used
+**Technologies Used**
 
 - Python
 - Jupyter Notebook
@@ -44,7 +44,7 @@ Technologies Used
 - Scikit-learn
 - Mlxtend
 
-Methodology
+**Methodology**
 
 1. Data Cleaning and Exploratory Data Analysis
 
@@ -66,7 +66,7 @@ Apply K-Means to standardized numerical customer features and analyze the charac
 
 Apply Apriori to product transactions and examine support, confidence, and lift.
 
-Initial Results
+**Initial Results**
 
 Linear Regression achieved the best initial regression results, with an MAE of approximately 403.10 and an R² score of 0.9922.
 
@@ -76,7 +76,7 @@ The clustering and association analyses identified exploratory customer segments
 
 These results are preliminary and should not be interpreted as proof of real-world predictive performance.
 
-How to Run the Project
+**How to Run the Project**
 
 1. Clone or download the repository.
 2. Install the required Python libraries.
@@ -84,7 +84,7 @@ How to Run the Project
 4. Open "ecommerce_customer_analytics.ipynb" in Jupyter Notebook or VS Code.
 5. Run the notebook cells in order.
 
-Limitations
+**Limitations**
 
 - The churn-positive class is underrepresented.
 - The regression results require investigation for possible target leakage.
@@ -92,7 +92,7 @@ Limitations
 - Association rules describe co-occurrence, not causation.
 - Results may not generalize to new customers.
 
-Future Improvements
+**Future Improvements**
 
 - Validate the churn labels against the original data documentation.
 - Evaluate models using additional data and appropriate cross-validation.
